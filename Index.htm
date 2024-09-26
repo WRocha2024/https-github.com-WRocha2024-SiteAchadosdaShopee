@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Encontre os melhores produtos automotivos na Shopee. Confira nossa seleção e compre com facilidade!">
+    <meta name="keywords" content="Shopee, produtos automotivos, compras online, promoções, achados Shopee">
+    <meta name="author" content="RacingFire">
+    <title>Lista de Achados da Shopee</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <Center>
+            <img src="Shopee.png" alt="Logo da Shopee - Achados da Shopee">
+            <img src="LogoRacingfireOfc.webp" alt="Logo RacingFire" class="Logo-RacingFire">
+        </Center>
+        <h1>Achados da Shopee... RacingFire</h1>
+        <b><i><center>
+                <p class="informe"> Buscamos para vcs os melhores produtos, com as melhores avaliaçoes do mercado,
+                    sempre pensando na segurança de nossos clientes.</p>
+                <p>Ao cliclar no botão comprar vcs serão direcionados ao site da Shopee em outra aba, adicione o produto
+                    ao seu carrino e volte para ver outros pordutos </p>
+                <p>Vc pode Buscar o Produto desejado pelo nome ou Codigo no campo abaixo</p></center></b></i>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Produto / Código">
+            <button onclick="searchProduct()">Buscar</button>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+            <!-- Produto 1 -->
+            <div class="product-item" data-name="Compressor Portátil" data-code="001">
+                <img src="Compressorportatil.webp" alt="Compressor Portátil">
+                <h3>Compressor Portátil (Código: 001)</h3>
+                <a href="https://s.shopee.com.br/7pajFoeCdm" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 2 -->
+            <div class="product-item" data-name="Kit Da Vonixx" data-code="002">
+                <img src="Kit Da Vonixx.webp" alt="Kit Da Vonixx">
+                <h3>Kit Da Vonixx (Código: 002)</h3>
+                <a href="https://s.shopee.com.br/8pTGS0wAZq" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 3 -->
+            <div class="product-item" data-name="Lavadora de Alta Pressão Vonder" data-code="003">
+                <img src="Lavadora De Alta Pressão Lav1300 Libras Vonder 1.300lbf.webp"
+                    alt="Lavadora de Alta Pressão Vonder">
+                <h3>Lavadora de Alta Pressão Vonder (Código: 003)</h3>
+                <a href="https://s.shopee.com.br/5KtOHoqEew" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 4 -->
+            <div class="product-item" data-name="Escova Limpeza Automotiva Vonder" data-code="004">
+                <img src="Escova Para Limpeza Automotiva Vonder.webp" alt="Escova Para Limpeza Automotiva Vonder">
+                <h3>Escova Limpeza Automotiva Vonder (Código: 004)</h3>
+                <a href="https://s.shopee.com.br/30VTVpvyqt" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 5 -->
+            <div class="product-item" data-name="Aspirador Automotivo" data-code="005">
+                <img src="Aspirador De Pó E Liquido Automotivo Portátil Turbo Potente 90w 12v.webp"
+                    alt="Aspirador Automotivo">
+                <h3>Aspirador Automotivo (Código: 005)</h3>
+                <a href="https://s.shopee.com.br/6ASVHzfqGh" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 6 -->
+            <div class="product-item" data-name="Shampoo Com Cera Automotivo" data-code="006">
+                <img src="Shampoo Com Cera De Carnaúba 5 Litros Automotivo + Brilho.webp"
+                    alt="Shampoo Com Cera Automotivo">
+                <h3>Shampoo Com Cera Automotivo (Código: 006)</h3>
+                <a href="https://s.shopee.com.br/9A66rdrvpV" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 7 -->
+            <div class="product-item" data-name="Central Multimídia Automotiva" data-code="007">
+                <img src="Central Multimídia MP5 Automotiva Bluetooth 1 Din 7 Polegadas USB AUX TF Com Mirrorlink Touch Screen.webp"
+                    alt="Central Multimídia Automotiva">
+                <h3>Central Multimídia Automotiva (Código: 007)</h3>
+                <a href="https://s.shopee.com.br/6piC5Uo2IZ" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 8 -->
+            <div class="product-item" data-name="Carregador de Bateria Automotivo" data-code="008">
+                <img src="Carregador de bateria automotivo inteligente.webp" alt="Carregador de Bateria Automotivo">
+                <h3>Carregador de Bateria Automotivo (Código: 008)</h3>
+                <a href="https://s.shopee.com.br/6fOmfCiqGI" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 9 -->
+            <div class="product-item" data-name="Capa Impermeável de Banco" data-code="009">
+                <img src="Capa para banco de carro impermeável premium pet crianças.webp"
+                    alt="Capa Impermeável de Banco para Carro">
+                <h3>Capa Impermeável de Banco para Carro (Código: 009)</h3>
+                <a href="https://s.shopee.com.br/8f9r3didnT" class="buy-button" target="_blank">Comprar</a>
+            </div>
+            <!-- Produto 10 -->
+            <div class="product-item" data-name="Câmera Veicular Black Box" data-code="010">
+                <img src="Black Box Vision Wi-Fi + Cartão de 32gb - Câmera Veicular Automotiva para Carro Dashcam Taxi Uber.webp"
+                    alt="Câmera Veicular Black Box">
+                <h3>Câmera Veicular Black Box (Código: 010)</h3>
+                <a href="https://s.shopee.com.br/7fHJsS9kYO" class="buy-button" target="_blank">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function searchProduct() {
+            const input = document.getElementById('searchInput').value.trim().toLowerCase();  // Remover espaços extras
+            const products = document.querySelectorAll('.product-item');
+
+            products.forEach(product => {
+                const name = product.getAttribute('data-name').toLowerCase();
+                const code = product.getAttribute('data-code').toLowerCase();
+
+                if (name.includes(input) || code.includes(input)) {
+                    product.classList.remove('hidden');
+                } else {
+                    product.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
